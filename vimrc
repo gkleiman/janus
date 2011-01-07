@@ -110,12 +110,32 @@ vmap <C-Down> ]egv
 set modeline
 set modelines=10
 
-" Default color scheme
-color desert
-
 "Directories for swp files
 set backupdir=~/.vim/backup
 set directory=~/.vim/backup
+
+" Custom keybindings
+map <Leader>f :FuzzyFinderTextMate<CR>
+map <Leader>r :FuzzyFinderTextMateRefreshFiles<CR>
+map <Leader>c :RVcontroller<Space>
+map <Leader>m :Rmodel<Space>
+map <Leader>vm :RVmodel<Space>
+map <Leader>vv :RVview<Space>
+map <Leader>w <C-w>w
+map <Leader>/ <plug>NERDCommenterToggle
+map <C-s> <esc>:w<CR>
+imap <C-s> <esc>:w<CR>
+
+" Tabs navigation
+nmap <C-S-tab> :tabprevious<cr>
+nmap <C-tab> :tabnext<cr>
+nmap <C-t> :tabnew<cr>
+map <C-t> :tabnew<cr>
+map <C-S-tab> :tabprevious<cr>
+map <C-tab> :tabnext<cr>
+imap <C-S-tab> <ESC>:tabprevious<cr>
+imap <C-tab> <ESC>:tabnext<cr>
+imap <C-t> <ESC>:tabnew<cr>
 
 " Include user's local vim config
 if filereadable(expand("~/.vimrc.local"))
