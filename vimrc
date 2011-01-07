@@ -1,8 +1,9 @@
 set nocompatible
 
-set number
 set ruler
 syntax on
+
+let mapleader = ","
 
 " Whitespace stuff
 set nowrap
