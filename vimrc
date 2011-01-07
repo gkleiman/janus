@@ -41,8 +41,7 @@ set noequalalways
 
 " NERDTree configuration
 let NERDTreeIgnore=['\.rbc$', '\~$']
-map <Leader>n :NERDTreeToggle<CR>
-
+map <Leader>p :NERDTreeToggle<CR>
 " Command-T configuration
 let g:CommandTMaxHeight=20
 
