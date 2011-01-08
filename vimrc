@@ -123,6 +123,7 @@ map <Leader>vm :RVmodel<Space>
 map <Leader>vv :RVview<Space>
 map <Leader>w <C-w>w
 map <Leader>/ <plug>NERDCommenterToggle
+imap <C-l> <Space>=><Space>
 map <C-s> <esc>:w<CR>
 imap <C-s> <esc>:w<CR>
 
