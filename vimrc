@@ -30,10 +30,6 @@ set incsearch
 set ignorecase
 set smartcase
 
-" Tab completion
-set wildmode=list:longest,list:full
-set wildignore+=*.o,*.obj,.git,*.rbc
-
 " Status bar
 set laststatus=2
 
